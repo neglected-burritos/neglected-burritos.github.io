@@ -17,7 +17,16 @@ h1 {
 .burrito {
 	float: left;
 	margin: 1em;
-	background: red;
+	background: brown;
+	text-align: center;
+	color: white;
+	border-radius: 5%;
 	height: 10em;
 	width: 10em;
+}
+
+.twitter {
+	float: right;
+	margin: 1em;
+	border: 5px solid brown;
 }
