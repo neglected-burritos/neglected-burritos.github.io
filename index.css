@@ -17,7 +17,8 @@ h1 {
 .burrito {
 	float: left;
 	margin: 1em;
-	background: red;
+	background: yellow;
 	height: 10em;
 	width: 10em;
+
 }
