@@ -30,3 +30,9 @@ h1 {
 	margin: 1em;
 	border: 5px solid brown;
 }
+
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
