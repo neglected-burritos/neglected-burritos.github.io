@@ -31,8 +31,21 @@ h1 {
 	border: 5px solid brown;
 }
 
- .carousel-inner > .item > img,
- .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
+ .carousel-inner {
+ 	height: 400px;
+}
+
+  .carousel-inner div{
+  	background-size: cover;
+  	height: 100%;
+  } 
+
+  .carousel-inner div.burrito-1 {
+  	background-image: url("http://3.bp.blogspot.com/-RpeV3vIoTFA/UcfnliRlmCI/AAAAAAAAGCM/MkeeSobBRBc/s1600/DSC_5133.jpg");
   }
+
+
+
+
+
+
