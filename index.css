@@ -7,29 +7,15 @@ h1 {
 	font-family: 'Londrina Sketch', cursive;
 	text-align: center;
 	font-size: 4em;
-	/*background-image: url(https://www.deltaco.com/files/menu/item/classicgrilledchickenburrito.png);
-	background-repeat: no-repeat;
-	background-position: -200px;
-	background-color: rgba(255, 255, 255, 0.5);
-	*/
 }
 
 .burrito {
-	float: left;
-	margin: 1em;
 	background: brown;
 	text-align: center;
 	color: white;
-	border-radius: 5%;
-	height: 10em;
-	width: 10em;
+	border: 1px solid white;
 }
 
-.twitter {
-	float: right;
-	margin: 1em;
-	border: 5px solid brown;
-}
 
  .carousel-inner {
  	height: 400px;
