@@ -11,6 +11,11 @@ h1 {
 	font-size: 4em;
 }
 
+
+h2, h3 {
+	text-align: center;
+}
+
 .burrito {
 	background: black;
 	text-align: center;
