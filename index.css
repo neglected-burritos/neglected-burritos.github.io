@@ -1,19 +1,31 @@
 body {
 	color: black;
 	font-family: 'Gloria Hallelujah', cursive;
-	background-image: url(http://alexanderscafe.com/images/background.jpg);
+	/*background-image: url(http://alexanderscafe.com/images/background.jpg);*/
 	background-size: cover;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 h1 {
 	font-family: 'Londrina Sketch', cursive;
 	text-align: center;
 	font-size: 4em;
+  font-weight: bold;
+  color: white;
 }
 
 
 h2, h3 {
 	text-align: center;
+}
+
+.toprow {
+  background-color: rgba(0, 0, 0, 1);
+  background-size: cover;
 }
 
 .burrito {
