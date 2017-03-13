@@ -2,41 +2,122 @@
 <html>
 	<head>
 		<title>Neglected Burritos</title>
+		
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
 		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Londrina+Sketch" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="index.css">
+
+		<script
+		  src="https://code.jquery.com/jquery-3.1.1.min.js"
+		  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		  crossorigin="anonymous"></script>
+		<script src="./script.js"></script>
+		
+
 	</head>
 
 	<body>
-		<div id="heading">
-			<h1>Home of neglected burritos</h1>
+		<h1> Welcome to the home of burritos</h1>
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span> 
+		      </button>
+		      <a class="navbar-brand" href="index.html">Neglected Burritos</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Home</a></li>
+		        <li><a href="social.html">Burrito Feed</a></li>
+		        <li><a href="map.html">Burrito Map</a></li> 
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+
+
+
+
+
+		<button id="click_me">Click Me!</button>
+
+		<div class="container">
+			<h2> Top Burrito Locations</h2>
+			<h2> (as voted by tripadvisor) </h2>
+	  		<br>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+				  <!-- Indicators -->
+				<ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1" class="burrito-2"></li>
+				    <li data-target="#myCarousel" data-slide-to="2" class="burrito-3"></li>
+				    <li data-target="#myCarousel" data-slide-to="3" class="burrito-4"></li>
+				    <li data-target="#myCarousel" data-slide-to="4" class="burrito-5"></li>
+				</ol>
+
+				  <!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+				    <div class="item active burrito-1">
+				    	<h3>#1: Changos burritos </h3>
+					</div>
+
+					<div class="item burrito-2">
+					    <h3>#2: Lust Luck Liquor and Burn</h3>
+			   		</div>
+
+			    	<div class="item burrito-3">
+			      		<h3>#3: Wahaca</h3>
+			    	</div>
+
+			    	<div class="item burrito-4">
+			      		<h3>#4: Panchos Burritos</h3>
+			    	</div>
+
+			    	<div class="item burrito-5">
+			      		<h3>#5: Moose Coffee</h3>
+			    	</div>
+
+		  		</div>
+
+		  	<!-- Left and right controls -->
+		  	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  	</a>
+		  	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  	</a>
 		</div>
 
-		<div class="burrito">
-			<h2> second heading </h2>
+		<div class="row">
+		  <div class="col-sm-4 burrito">
+		  	<h3> second heading </h3>
+		  </div>
+		  <div class="col-sm-4 burrito">
+		  	<h3> Burrito Timeline </h3>
+		  </div>
+		  <div class="col-sm-4 burrito">
+		  	<h3>Blablabla burritos</h3>
+		  </div>
 		</div>
 
-		<div class="burrito"> 
-			<h3> Burrito Timeline </h3>
-          
-		</div>
 
-		<div class="burrito"> 
-			<p>
-				Blablabla burritos
-			</p>
-		</div>
-
-		<div class ="twitter">
-		<a class="twitter-timeline"  href="https://twitter.com/search?q=burritos%20manchester" data-widget-id="834163459688427520">Tweets about burritos manchester</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-         </div>
-
-		
-		
-
-
-		
+	        
 
 	</body>
 

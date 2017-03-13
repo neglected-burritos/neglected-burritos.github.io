@@ -1,32 +1,64 @@
 body {
-	color: brown;
+	color: black;
 	font-family: 'Gloria Hallelujah', cursive;
+	background-image: url(http://alexanderscafe.com/images/background.jpg);
+	background-size: cover;
 }
 
 h1 {
 	font-family: 'Londrina Sketch', cursive;
 	text-align: center;
 	font-size: 4em;
-	/*background-image: url(https://www.deltaco.com/files/menu/item/classicgrilledchickenburrito.png);
-	background-repeat: no-repeat;
-	background-position: -200px;
-	background-color: rgba(255, 255, 255, 0.5);
-	*/
+}
+
+
+h2, h3 {
+	text-align: center;
 }
 
 .burrito {
-	float: left;
-	margin: 1em;
-	background: brown;
+	background: black;
 	text-align: center;
 	color: white;
-	border-radius: 5%;
-	height: 10em;
-	width: 10em;
+	border: 1px solid white;
 }
 
-.twitter {
-	float: right;
-	margin: 1em;
-	border: 5px solid brown;
+
+ .carousel-inner {
+ 	height: 400px;
 }
+
+  .carousel-inner div{
+  	background-size: cover;
+  	height: 100%;
+  } 
+
+  .carousel-inner div.burrito-1 {
+  	background-image: url("http://3.bp.blogspot.com/-RpeV3vIoTFA/UcfnliRlmCI/AAAAAAAAGCM/MkeeSobBRBc/s1600/DSC_5133.jpg");
+  }
+
+  .carousel-inner div.burrito-2 {
+  	background-image: url("http://1.bp.blogspot.com/-YasTK-OEb1E/UQ1KKRGgZRI/AAAAAAAAJi4/FN5MUgE41SI/s1600/Liquor+and+Burn+-+Menu.jpg");
+  }
+
+  .carousel-inner div.burrito-3 {
+  	background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/08/df/a0/82/wahaca-manchester.jpg");
+  }
+
+.carousel-inner div.burrito-4 {
+	background-image: url("http://dineanddiscover.co.uk/wp-content/uploads/2015/05/img_1495.jpg");
+  }
+
+.carousel-inner div.burrito-5 {
+	background-image: url("http://www.champagneandchutney.com/wp-content/uploads/2014/03/Entrance.jpg");
+  }
+
+  .carousel-inner div.item h3{
+  	
+  }
+
+
+
+
+
+
