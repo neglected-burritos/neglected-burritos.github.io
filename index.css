@@ -23,6 +23,10 @@ h2, h3 {
 	text-align: center;
 }
 
+.navbar {
+  margin-bottom: 0px;
+}
+
 .toprow {
   background-color: rgba(0, 0, 0, 1);
   background-size: cover;
@@ -65,8 +69,8 @@ h2, h3 {
 	background-image: url("http://www.champagneandchutney.com/wp-content/uploads/2014/03/Entrance.jpg");
   }
 
-  .carousel-inner div.item h3{
-  	
+  .carousel-inner div.item {
+  	padding: 20px;
   }
 
 
