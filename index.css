@@ -32,6 +32,10 @@ h2, h3 {
   background-size: cover;
 }
 
+.toprow h1{
+  color: rgb(205,133,63);
+}
+
 .burrito {
 	background: black;
 	text-align: center;
@@ -44,7 +48,7 @@ h2, h3 {
   top: auto;
   left: 0;
   bottom: -325px;
-  color: white;
+  color: rgb(205,133,63);
   background-color: rgba(9,9,9,0.8);
   width: 100%;
   padding-left: 15px;
@@ -86,6 +90,10 @@ h2, h3 {
 
   .carousel-inner div.item {
   	padding: 20px;
+  }
+
+  .twitter {
+    border: 5px solid rgb(205,133,63);
   }
 
 
