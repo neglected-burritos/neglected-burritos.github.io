@@ -1,7 +1,7 @@
 body {
 	color: black;
 	font-family: 'Gloria Hallelujah', cursive;
-	/*background-image: url(http://alexanderscafe.com/images/background.jpg);*/
+	background-image: url(http://alexanderscafe.com/images/background.jpg);
 	background-size: cover;
 }
 
@@ -39,6 +39,21 @@ h2, h3 {
 	border: 1px solid white;
 }
 
+.placename {
+  position: absolute;
+  top: auto;
+  left: 0;
+  bottom: -325px;
+  color: white;
+  background-color: rgba(9,9,9,0.8);
+  width: 100%;
+  padding-left: 15px;
+  
+}
+
+.placename h3 {
+  text-align: left;
+}
 
  .carousel-inner {
  	height: 400px;
