@@ -108,18 +108,26 @@ h2, h3 {
   border: 5px solid rgb(205,133,63);
 }
 
+.below {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5%;
+}
+
 .intro p {
-  text-align: center;
+  text-align: left;
   font-size: 2em;
   
 }
 
 .intro {
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 100%;
+  
   padding:5%;
+  height: auto;
 }
 
+.img-responsive {
+  height: auto;
+}
 
 
 
