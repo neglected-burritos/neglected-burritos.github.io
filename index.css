@@ -36,6 +36,9 @@ h2, h3 {
   color: rgb(205,133,63);
 }
 
+.info {
+  padding-right: 15px;
+}
 .burrito {
 	background: black;
 	text-align: center;
@@ -47,16 +50,22 @@ h2, h3 {
   position: absolute;
   top: auto;
   left: 0;
-  bottom: -325px;
-  color: rgb(205,133,63);
+  bottom: -315px;
   background-color: rgba(9,9,9,0.8);
   width: 100%;
   padding-left: 15px;
   
 }
 
-.placename h3 {
+.placename h1 {
   text-align: left;
+  color: rgb(205,133,63);
+  font-size: 3em;
+}
+
+.carousel-indicators {
+  left: 90%;
+  color: rgb(205,133,63);
 }
 
  .carousel-inner {
@@ -92,9 +101,25 @@ h2, h3 {
   	padding: 20px;
   }
 
-  .twitter {
-    border: 5px solid rgb(205,133,63);
-  }
+
+}
+
+.twitter {
+  border: 5px solid rgb(205,133,63);
+}
+
+.intro p {
+  text-align: center;
+  font-size: 2em;
+  
+}
+
+.intro {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding:5%;
+}
+
 
 
 
