@@ -1,3 +1,5 @@
+/* General styling throughout site */
+
 body {
 	color: black;
 	font-family: 'Gloria Hallelujah', cursive;
@@ -36,15 +38,34 @@ h2, h3 {
   color: rgb(205,133,63);
 }
 
+/* Index.html */
+
 .info {
   padding-right: 15px;
 }
-.burrito {
-	background: black;
-	text-align: center;
-	color: white;
-	border: 1px solid white;
+
+.below {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5%;
 }
+
+.intro p {
+  text-align: left;
+  font-size: 2em;
+  
+}
+
+.intro {
+  
+  padding:5%;
+  height: auto;
+}
+
+.img-responsive {
+  height: auto;
+}
+
+/* Carousel Items */
 
 .placename {
   position: absolute;
@@ -72,65 +93,43 @@ h2, h3 {
  	height: 400px;
 }
 
-  .carousel-inner div{
-  	background-size: cover;
-  	height: 100%;
-  } 
+.carousel-inner div{
+	background-size: cover;
+	height: 100%;
+} 
 
-  .carousel-inner div.burrito-1 {
-  	background-image: url("http://3.bp.blogspot.com/-RpeV3vIoTFA/UcfnliRlmCI/AAAAAAAAGCM/MkeeSobBRBc/s1600/DSC_5133.jpg");
-  }
+.carousel-inner div.burrito-1 {
+	background-image: url("http://3.bp.blogspot.com/-RpeV3vIoTFA/UcfnliRlmCI/AAAAAAAAGCM/MkeeSobBRBc/s1600/DSC_5133.jpg");
+}
 
-  .carousel-inner div.burrito-2 {
-  	background-image: url("http://1.bp.blogspot.com/-YasTK-OEb1E/UQ1KKRGgZRI/AAAAAAAAJi4/FN5MUgE41SI/s1600/Liquor+and+Burn+-+Menu.jpg");
-  }
+.carousel-inner div.burrito-2 {
+	background-image: url("http://1.bp.blogspot.com/-YasTK-OEb1E/UQ1KKRGgZRI/AAAAAAAAJi4/FN5MUgE41SI/s1600/Liquor+and+Burn+-+Menu.jpg");
+}
 
-  .carousel-inner div.burrito-3 {
-  	background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/08/df/a0/82/wahaca-manchester.jpg");
-  }
+.carousel-inner div.burrito-3 {
+	background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/08/df/a0/82/wahaca-manchester.jpg");
+}
 
 .carousel-inner div.burrito-4 {
-	background-image: url("http://dineanddiscover.co.uk/wp-content/uploads/2015/05/img_1495.jpg");
-  }
+background-image: url("http://dineanddiscover.co.uk/wp-content/uploads/2015/05/img_1495.jpg");
+}
 
 .carousel-inner div.burrito-5 {
-	background-image: url("http://www.champagneandchutney.com/wp-content/uploads/2014/03/Entrance.jpg");
-  }
+background-image: url("http://www.champagneandchutney.com/wp-content/uploads/2014/03/Entrance.jpg");
+}
 
-  .carousel-inner div.item {
-  	padding: 20px;
-  }
+.carousel-inner div.item {
+	padding: 20px;
+}
 
 
 }
+
+/* Burrito Feed Page */
 
 .twitter {
   border: 5px solid rgb(205,133,63);
 }
-
-.below {
-  background-color: rgba(0, 0, 0, 0.2);
-  padding: 5%;
-}
-
-.intro p {
-  text-align: left;
-  font-size: 2em;
-  
-}
-
-.intro {
-  
-  padding:5%;
-  height: auto;
-}
-
-.img-responsive {
-  height: auto;
-}
-
-
-
 
 
 
