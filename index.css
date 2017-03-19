@@ -131,5 +131,114 @@ background-image: url("http://www.champagneandchutney.com/wp-content/uploads/201
   border: 5px solid rgb(205,133,63);
 }
 
+/* about us */
+h2, h3 , h4{
+  text-align: center;
+}
+/*-------------About us page--------------*/
+h4 {
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom:3px solid black;
+    margin: 50px;
+}   
 
+table {
+    
+    border-collapse: collapse;
+    font-family: 'Shadows Into Light', cursive;
+    font-size:25px;
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+}
 
+th {
+    /*height: 50px;
+    background-color:#cc8c45;*/
+}
+table, th {
+    border: 1px solid black;
+    
+}
+tr, th {
+    border-bottom: 1px solid #ddd;
+}
+#td01{
+    text-align: center;
+    font-family: Colonna MT;
+    font-size: 30px;
+    font-weight: bold;
+    border: 10px solid transparent;
+    /*background-color:#cc8c45;*/
+}
+.aboutus {
+    border-bottom: 4px solid #cc8c45;
+    font-family: Agency FB;
+    font-size: 1.25em;
+    font-weight: bold;
+    
+}
+img02 {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+    
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.toprow {
+  background-color: rgba(0, 0, 0, 1);
+  background-size: cover;
+}
+
+.toprow h1{
+  color: rgb(205,133,63);
+}
+.full-width.flush-top {
+  padding-top: 0px;
+
+}
+.full-width {
+  width: 100%;
+  /*background-color:#ecc46c; 
+  background-repeat: repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;*/
+  padding: 50px 0px;
+  padding-right: 0px;
+  padding-bottom: 50px; 
+  padding-left: 0px;
+}
+.container {
+  zoom: 1;
+  max-width: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.emlem-row {
+  display: block;
+  float: left; 
+  margin-right: 4.4%; 
+  /*width: 100%;*/ 
+}
+.emblem-row .emblem-col{
+  width: 60%; 
+  display: block;
+  margin: 0px; 
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  float: left;
+  padding: 40px 30px 50px;
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  text-align: center;
+}
