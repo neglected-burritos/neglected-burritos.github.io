@@ -175,7 +175,7 @@ table {
     font-family: Agency FB;
     font-size: 1.25em;
     /*font-weight: bold;*/
-    text-align: left;
+    text-align: center;
     
 }
 img02 {
@@ -204,20 +204,20 @@ img02 {
 }
 .full-width {
   width: 100%;
-  /*background-color:#ecc46c; 
+  background-color:#ecc46c; 
   background-repeat: repeat;
   background-repeat: repeat-x;
-  background-repeat: repeat-y;*/
+  background-repeat: repeat-y;
   padding: 50px 0px;
   padding-right: 0px;
   padding-bottom: 50px; 
   padding-left: 0px;
 }
-.container {
+/*.container {
   zoom: 1;
   max-width: 5em;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
 }
 .emlem-row {
   display: block;
@@ -225,7 +225,7 @@ img02 {
   margin-right: 4.4%; 
   /*width: 100%;*/ 
 }
-.emblem-row .emblem-col{
+/*.emblem-row .emblem-col{
   width: 60%; 
   display: block;
   margin: 0px; 
@@ -239,7 +239,7 @@ img02 {
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 30px;
-  text-align: center;
+  text-align: center;*/ 
 }
 
 .Adelaide {
